@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact us form</title>
+	<style type="text/css">
+		body{font-family: Times New Roman; background-color: pink;}
+			*{box-sizing: content-box;}
+			input[type=text],select,textarea{
+				width: 10%;
+				padding: 10px;
+				border: 2px;
+				border-radius: 6px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				resize: vertical;
+			}
+ 			input[type=Email]{width: 10%;
+				padding: 10px;
+				border: 2px;
+				border-radius: 6px;
+				margin-top: 10px;
+				margin-bottom: 30px;
+				resize: vertical;
+			}
+ 			input[type=number]{width: 10%;
+				padding: 10px;
+				border: 2px;
+				border-radius: 6px;
+				margin-top: 10px;
+				margin-bottom: 30px;
+				resize: vertical;
+			}
+			input[type=submit]{
+				background-color: greenyellow;
+				color: salmon;
+				padding: 5px;
+				border-radius: 6px;
+				cursor: pointer;
+			}
+			input[type=submit]:hover{
+				background-color: darkgreen;
+			}
+
+	</style>
+</head>
+<body>
+	<h1 style="color: blueviolet;"><b>Contact Form</b></h1>
+
+	<form action="submitted.html" target="_blank">
+	<label for="fname">First Name:-</label>
+    <input type="text" name="fname" placeholder="John "><br><br>
+    <label for="lname">Last Name:-</label>
+    <input type="text" name="fname" placeholder="Doe"><br><br>
+    <label for="Email">Email:-</label>
+    <input type="Email" name="Email" placeholder="JohnDoe123@gmail.com"><br><br>
+    <label for="number">Mobile:-</label>
+    <input type="number" name="number" placeholder="1234567890" maxlength="18"><br><br>
+    <label for="Country">Country:-</label>
+    <select id="Country" name="Country">
+    	<option value="Australia">Australia</option>
+    	<option value="USA">USA</option>
+    	<option value="Canada">Canada</option>
+    	<option value="India">India</option>
+    </select><br><br>
+   <label for="Suggestion">Suggestion:-</label>
+   <textarea id="Suggestion" name="Subject" placeholder="Write Something..." maxlength="200" ></textarea><br>
+    <br>
+    <input type="submit" name="Submit"></form><br><br>
+<marquee>!!!Thank you for visiting my web page!!!</marquee>
+
+
+</body>
+</html>
